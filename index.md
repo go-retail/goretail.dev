@@ -5,8 +5,11 @@ Welcome to GO Retail - A Retail System written (Work in progress) using Go !
 
 
 ## Table of Contents
+- [Goals](#goals)
+- [Use cases](#use-cases)
+- [User stories](#user-stories)
+- [User flows](#user-flows)
 
-[TOC]
 
 ## Goals
 
