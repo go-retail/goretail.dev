@@ -5,11 +5,11 @@
 Top Level Goal : 
 
 1. Key Retail Scenarios to implement
-    1. Catalog managemet
+    1. Catalog Managemet
     1. Inventory Management
-    1. Transaction processing and aggregation
+    1. Transaction Processing and Aggregation
     1. POS and sales even during isolation
-1. Build and Show case a well designed Distributed system
+1. Build and Show case a well designed distributed system
     1. Deal with the Geo distribution of the Stores
     1. Deal with reduced Bandwidth
     1. Deal with Lost conectivity for varied amounts of time
@@ -17,5 +17,5 @@ Top Level Goal :
 1. Handle the key needs of a real retail ecosystem tking care of an Omni-Channel unification 
     1. In Store
     1. Mobile and Web ( Ecommerce)
-1. Demonstrate Clooud Native distributed system Management and Observability
+1. Demonstrate Cloud Native distributed system management and observability
 1. Initially focus on building the apps using GoLang
