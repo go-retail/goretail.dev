@@ -1,8 +1,3 @@
----
-title: 'GO Retail'
-disqus: gpallapa
----
-
 GO Retail
 ===
 Welcome to GO Retail - A Retail System written (Work in progress) using Go !
