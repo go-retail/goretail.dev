@@ -33,19 +33,42 @@ Here are the top level goals of this project
 
 ## Use cases
 
-Here be use cases we are going to target
+### Minimum Business Increment
+Customer brings item(s) to check out, item is scanned by cashier or self-scanner, bill is calculated, and customer pays for items
+
+1. Access price for item being scanned and add it to shopping cart
+2. If item already exists, check cache for itme if already scanned and present, increment item in shopping cart
+3. Total + tax calculation
+4. Payment processing
+5. Inventory update
+6. Coupons and rebates
+7. Transaction updates
+8. Customer loyalty (card/membership)
+9. Cancel transactions
 
 User stories
 ---
 
 ```gherkin=
-Feature: Catalog management
+Feature: Access price for item being scanned and add it to shopping cart
 
   # The first scenario
   Scenario: 
-    Given 
-    When 
-    Then 
+    Given The customer is validated and a shopping cart has been initiated
+    When An item is scanned in a valid way
+    Then Retrieve price per unit
+    And  Calculate total price of item - (unit price * units) - rebate + tax
+    And  Add items and total price to cart
+    
+    Task: Initiate shopping cart
+        Prerequisites:
+              temporary Catalog
+              Cache
+              Table
+              tage
+        Acceptance Criteria:
+            Have a way to 
+              
 
   # The second scenario
   Scenario: 
