@@ -1,4 +1,4 @@
-GO Retail
+GO Retail ( Work in Progress ) 
 ===
 Welcome to GO Retail - A Retail System written (Work in progress) using Go !
 
