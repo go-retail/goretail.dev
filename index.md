@@ -1,6 +1,16 @@
 GO Retail ( Work in Progress ) 
 ===
-Welcome to GO Retail - A Retail System written (Work in progress) using Go !
+Welcome to GO Retail - A Retail System (Work in progress) that is being designed as a distributed system handling all of the needs of the current day usecases. 
+One of the goal of this project is to demonstrate the key multi-cloud and multi-region  use cases for a globally disctributed system running on modern day platforms like Kubernetes. 
+
+Any such application or an ecosystem needs the connectivity and data synchronization to be seamless. We will evaluate multiple combinations of technologies around the key challenges that need to be solved to build an efficient and scalable distributed system. 
+- Federated queuing
+- RDBMS leader-follower
+- WAN-Cache 
+- Objectstore replication
+- Federated identity management
+- Manageability and Observability with an SRE model
+
 
 
 
@@ -29,9 +39,9 @@ Here are the top level goals of this project
     1. In Store
     1. Mobile and Web ( Ecommerce)
 1. Demonstrate Cloud Native distributed system management and observability
-1. Initially focus on building the apps using GoLang
+1. Initially focus on building the apps using GoLang but will keep an open mind to solve the problems using the best tools and libraries available. 
 
-## Use cases
+## Use cases ( WIP) 
 
 ### Minimum Business Increment
 Customer brings item(s) to check out, item is scanned by cashier or self-scanner, bill is calculated, and customer pays for items
