@@ -1,7 +1,7 @@
 GO Retail ( Work in Progress ) 
 ===
 Welcome to GO Retail - A Retail System (Work in progress) that is being designed as a distributed system handling all of the needs of the current day usecases. 
-One of the goal of this project is to demonstrate the key multi-cloud and multi-region  use cases for a globally disctributed system running on modern day platforms like Kubernetes. 
+One of the goal of this project is to demonstrate the key multi-cloud and multi-region  use cases for a ***globally distributed system*** running on modern day cloud platforms. 
 
 Any such application or an ecosystem needs the connectivity and data synchronization to be seamless. We will evaluate multiple combinations of technologies around the key challenges that need to be solved to build an efficient and scalable distributed system. 
 - Federated queuing
@@ -10,6 +10,7 @@ Any such application or an ecosystem needs the connectivity and data synchroniza
 - Objectstore replication
 - Federated identity management
 - Manageability and Observability with an SRE model
+- Fully automated CI/CD system
 
 
 
