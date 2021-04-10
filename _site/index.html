@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>GO Retail ( Work in Progress ) | goretail.dev</title>
+<meta name="generator" content="Jekyll v3.8.7" />
+<meta property="og:title" content="GO Retail ( Work in Progress )" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="http://localhost:4000/" />
+<meta property="og:url" content="http://localhost:4000/" />
+<meta property="og:site_name" content="goretail.dev" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/","name":"goretail.dev","headline":"GO Retail ( Work in Progress )","@type":"WebSite","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=4f0b5b293faa310b9235f508cf231fda39e2482c">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="/assets/js/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="/assets/css/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/go-retail/goretail.dev">View On GitHub</a></li>
+          
+        </nav>
+      </div><!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>goretail.dev</h1>
+          <p></p>
+          <hr>
+         </div>
+
+        <h1 id="go-retail--work-in-progress-">GO Retail ( Work in Progress )</h1>
+<p>Welcome to GO Retail - A Retail System (Work in progress) that is being designed as a distributed system handling all of the needs of the current day usecases. 
+One of the goal of this project is to demonstrate the key multi-cloud and multi-region  use cases for a <strong><em>globally distributed system</em></strong> running on modern day cloud platforms.</p>
+
+<p><img src="/assets/images/retail-main.jpg" />
+Any such application or an ecosystem needs the connectivity and data synchronization to be seamless. We will evaluate multiple combinations of technologies around the key challenges that need to be solved to build an efficient and scalable distributed system.</p>
+<ul>
+  <li>Federated queuing</li>
+  <li>RDBMS leader-follower</li>
+  <li>WAN-Cache</li>
+  <li>Objectstore replication</li>
+  <li>Federated identity management</li>
+  <li>Manageability and Observability with an SRE model</li>
+  <li>Fully automated CI/CD system</li>
+</ul>
+
+<h2 id="table-of-contents">Table of Contents</h2>
+<ul>
+  <li><a href="#goals">Goals</a></li>
+  <li><a href="#use-cases">Use cases</a></li>
+  <li><a href="#user-stories">User stories</a></li>
+  <li><a href="#user-flows">User flows</a></li>
+</ul>
+
+<h2 id="goals">Goals</h2>
+
+<p>Here are the top level goals of this project</p>
+
+<ol>
+  <li>Key Retail Scenarios to implement
+    <ol>
+      <li>Catalog and Price Management</li>
+      <li>Inventory Management</li>
+      <li>Transaction Processing and Aggregation</li>
+      <li>POS and sales even during isolation</li>
+    </ol>
+  </li>
+  <li>Build and Show case a well designed distributed system
+    <ol>
+      <li>Deal with the Geo distribution of the Stores</li>
+      <li>Deal with reduced Bandwidth</li>
+      <li>Deal with Lost conectivity for varied amounts of time</li>
+    </ol>
+  </li>
+  <li>Design the system to run on top of a hub and spoke model using Kubernetes based ecosystem</li>
+  <li>Handle the key needs of a real retail ecosystem tking care of an Omni-Channel unification
+    <ol>
+      <li>In Store</li>
+      <li>Mobile and Web ( Ecommerce)</li>
+    </ol>
+  </li>
+  <li>Demonstrate Cloud Native distributed system management and observability</li>
+  <li>Initially focus on building the apps using GoLang but will keep an open mind to solve the problems using the best tools and libraries available.</li>
+</ol>
+
+<h2 id="use-cases--wip">Use cases ( WIP)</h2>
+
+<h3 id="minimum-business-increment">Minimum Business Increment</h3>
+<p>Customer brings item(s) to check out, item is scanned by cashier or self-scanner, bill is calculated, and customer pays for items</p>
+
+<ol>
+  <li>Access price for item being scanned and add it to shopping cart</li>
+  <li>If item already exists, check cache for itme if already scanned and present, increment item in shopping cart</li>
+  <li>Total + tax calculation</li>
+  <li>Payment processing</li>
+  <li>Inventory update</li>
+  <li>Coupons and rebates</li>
+  <li>Transaction updates</li>
+  <li>Customer loyalty (card/membership)</li>
+  <li>Cancel transactions</li>
+</ol>
+
+
+
+      </section>
+
+    </div>
+
+    
+  </body>
+</html>
